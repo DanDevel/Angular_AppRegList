@@ -1,0 +1,25 @@
+<div>
+  <h2>Cadastre a parcela e valor:</h2>
+  <form (ngSubmit)="submitForm()" #registrationForm="ngForm">
+    <table>
+      <tr>
+        <td>
+          <label for="integerField">Parcela:</label>
+          <input type="number" id="integerField" name="integerField" [(ngModel)]="integerValue" required>
+        </td>
+        <td>
+          <label for="decimalField">Valor:</label>
+          <input type="number" id="decimalField" name="decimalField" [(ngModel)]="decimalValue" required>
+        </td>
+      </tr>
+    </table>
+    <br />
+    <br />
+    <button type="submit" [disabled]="!registrationForm.valid">Enviar</button>
+  </form>
+
+  <div *ngIf="responseMessage" class="response-message">
+    {{ responseMessage }}
+  </div>
+</div>
+

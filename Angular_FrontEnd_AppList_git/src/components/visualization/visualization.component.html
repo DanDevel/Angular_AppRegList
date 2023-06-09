@@ -1,0 +1,15 @@
+<div>
+  <h2>Visualização de Dados</h2>
+  <label for="integerValue">Informe um número para buscar no endPoint:</label>
+  <input type="number" id="integerValue" name="integerValue" [(ngModel)]="selectedValue" (ngModelChange)="getData()" />
+
+  <div *ngIf="data">
+    <h3>Registro selecionado: {{ selectedValue }}</h3>
+    <ul>
+      <li *ngFor="let item of data">
+        Key: {{ item?.key }} - Value: {{ item?.value }}
+      </li>
+    </ul>
+  </div>
+
+</div>
