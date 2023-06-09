@@ -74,3 +74,33 @@ Navegue até o diretório do projeto.
 Instale as dependências necessárias executando npm install.
 Inicie o servidor de desenvolvimento com ng serve.
 Acesse o aplicativo em seu navegador em http://localhost:4200.
+
+
+# PRINTS do sistema:
+
+Componente inicial HOME: 
+https://github.com/DanDevel/Angular_AppRegList/blob/main/Prints_do_Sistema/print_HOME.png
+
+
+Componente REGISTRATION 1 - preenchendo o formulário: 
+https://github.com/DanDevel/Angular_AppRegList/blob/main/Prints_do_Sistema/print_REGISTRATION_1.png 
+
+
+Componente REGISTRATION 2 - retorno do endpoint: 
+https://github.com/DanDevel/Angular_AppRegList/blob/main/Prints_do_Sistema/print_REGISTRATION_2_retorno_do_endopint.png 
+
+
+Componente VISUALIZATION 1 - Selecionar dados: 
+https://github.com/DanDevel/Angular_AppRegList/blob/main/Prints_do_Sistema/print_VISUALIZATION_1.png
+
+
+Componente VISUALIZATION 2 - Visualizando retorno do endpoint: 
+https://github.com/DanDevel/Angular_AppRegList/blob/main/Prints_do_Sistema/print_VISUALIZATION_2_retorno_do_endpoint.png
+
+
+
+
+
+
+
+
