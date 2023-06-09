@@ -3,6 +3,8 @@ Este aplicativo Angular é uma demonstração de uma aplicação web moderna que
 
 Ele foi desenvolvido utilizando conceitos como DDD (Domain-Driven Design) e Clean Code, visando alta qualidade, escalabilidade e manutenibilidade.
 
+*** Possui as funcionalidades solicitadas. 
+
 # Recursos
 
 ## Formulário de Registro
